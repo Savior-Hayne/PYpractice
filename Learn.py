@@ -1,4 +1,7 @@
 #coding=utf-8
+"""
+爬虫版本1.0
+"""
 
 from urllib.request import urlopen
 from urllib.error import HTTPError
@@ -27,3 +30,5 @@ if title == None:
     print("Title could not be found")
 else:
     print(title)
+
+print('程序已经结束')
