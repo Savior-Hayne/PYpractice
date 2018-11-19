@@ -4,8 +4,7 @@
         2.加入循环
         3.封装函数
 """
-#def main():
-# 迪拉姆vs人民币的汇率,之后需要去网站实时获取
+
 aed_vs_rmb = 1.89
 
 #程序入口
@@ -33,5 +32,4 @@ while in_currency_value != 'q':
 print('程序退出,EXIT')
 
 
-#if __name__ == 'main()':
-#    main()
+
