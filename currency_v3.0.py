@@ -14,7 +14,7 @@ def convert_currency(im, er):
     er: exchange_rate 汇率
     """
     out = im * er
-    return  out
+    return out
 
 def main():
     """
