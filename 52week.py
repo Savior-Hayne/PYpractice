@@ -7,7 +7,8 @@
 """
 import math
 
-def save_money_in_n_weeks(money_per_week,increase_money,total_week):
+
+def save_money_in_n_weeks(money_per_week, increase_money, total_week):
     """
     计算n周内的存款金额
     """
@@ -35,7 +36,6 @@ def save_money_in_n_weeks(money_per_week,increase_money,total_week):
     return saving
 
 
-
 def main():
     """
     主函数
@@ -47,7 +47,6 @@ def main():
 
     #调用函数
     save_money_in_n_weeks(money_per_week, increase_money, total_week)
-
 
 
 if __name__ == '__main__':
